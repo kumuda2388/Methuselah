@@ -23,7 +23,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 
 // Default Route
 app.get('/', (req, res) => {
-    res.send('Welcome to the Financial Tracker Backend API!');
+    res.send('Welcome to the Methuselah Backend API!');
   });
 
 // Start Server
